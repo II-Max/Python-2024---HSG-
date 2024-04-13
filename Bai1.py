@@ -1,1 +1,6 @@
-print("Hello Word")
+s1 = int(input("Nhập số thứ nhất : "))
+s2 = int(input("Nhập số thứ hai : "))
+s3 = int(input("Nhập số thứ ba : "))
+print(max(s1, max(s2,s3)))
+print(sum(s1,s2,s3) / 3)
+print(sum(s1,s2,s3))
