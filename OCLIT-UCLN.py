@@ -1,4 +1,4 @@
-#VD : Nhập a,b in ra UCLN
+#VD : Nhập a,b in ra UCLN, BCNL
 def UCLN(u, v):
           l = 0
           while(v != 0):
@@ -8,4 +8,5 @@ def UCLN(u, v):
           return u
 a = int(input("Nhập số nguyên a : "))
 b = int(input("Nhập số nguyên b : "))
-print(UCLN(a, b))
+print("Ước chung lớn nhất của a và b : ",UCLN(a, b))
+print("Bội chung lớn nhất của a và b : ",(a * b)/UCLN(a, b))
